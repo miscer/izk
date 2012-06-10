@@ -1,0 +1,11 @@
+{
+  "name": "IŽK rátač známok",
+  "version": "0.2",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://www.izk.sk/*"],
+      "js": ["jquery.js", "izk.js"]
+    }
+  ]
+}
